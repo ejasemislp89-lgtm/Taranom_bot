@@ -20,7 +20,7 @@ def keep_alive():
 
 # --- بخش دوم: تنظیمات هوش مصنوعی و تلگرام ---
 # کلید جمینای خود را دقیقاً بین دو کوتیشن زیر قرار دهید:
-genai.configure(api_key="کلید_جمینای_شما")
+genai.configure(api_key="AQ.Ab8RN6K1onfKhmXZi4b0nTmJbRKIx6RfVC8u_Cpw7O23cDAD1A")
 
 system_instruction = """
 شما دستیار هوشمند مرکز گفتاردرمانی ترنم هستید. وظیفه شما راهنمایی مادران در زمینه رشد زبانی کودکان است.
