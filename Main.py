@@ -60,7 +60,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # توکن ربات تلگرام خود را دقیقاً بین دو کوتیشن زیر قرار دهید:
-    application = Application.builder().token("توکن_تلگرام_شما").build()
+    application = Application.builder().token("7899217174:AAH0pbLxBSysB5AsdMSFj152Ousd7iJYSX4").build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     
