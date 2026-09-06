@@ -1,4 +1,7 @@
 import os
+os.system('pip install python-telegram-bot google-generativeai flask')
+
+import os
 import google.generativeai as genai
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
